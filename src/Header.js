@@ -19,12 +19,12 @@ function Header() {
           src="https://www.logo.wine/a/logo/YouTube/YouTube-Logo.wine.svg"/>
       </div>
 
-      <div className="header_input">
+      <div class="header_input" >
         <input type="text" />
         <SearchIcon />
       </div>
       
-      <div className="header_right">
+      <div className="header_icons">
         <VideoCallIcon />
         <AppsIcon />
         <NotificationsIcon />
