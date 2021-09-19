@@ -10,6 +10,7 @@ import Avatar from '@material-ui/core/Avatar';
 
 function Header() {
   return (
+    <div>
     <div className="header">
       <div className="header_left">
         <MenuIcon />
@@ -32,9 +33,34 @@ function Header() {
           alt="Justice Mubayiwa"
           src="https://yt3.ggpht.com/yti/APfAmoE1gOjOsyvo07UjkdCTyZ5Sr3kM2CVrN5oiOGJG6A=s88-c-k-c0x00ffffff-no-rj-mo"/>
       </div>
+     
+      
         
 
     </div>
+    <h1>test</h1>
+    <h1>test</h1>
+    <h1>test</h1>
+    <h1>test</h1>
+    <h1>test</h1>
+    <h1>test</h1>
+    <h1>test</h1>
+    <h1>test</h1>
+    <h1>test</h1>
+    <h1>test</h1>
+    <h1>test</h1>
+    <h1>test</h1>
+    <h1>test</h1>
+    <h1>test</h1>
+    <h1>test</h1>
+    <h1>test</h1>
+    <h1>test</h1>
+    <h1>test</h1>
+    <h1>test</h1>
+    <h1>test</h1>
+    <h1>test</h1>
+    </div>
+    
   )
 }
 
