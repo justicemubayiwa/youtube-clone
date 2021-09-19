@@ -19,12 +19,10 @@ function Header() {
           alt="Youtube logo"
           src="https://www.logo.wine/a/logo/YouTube/YouTube-Logo.wine.svg"/>
       </div>
-
       <div class="header_input" >
         <input placeholder="Search" type="text" />
         <SearchIcon className="header_inputButton" />
       </div>
-      
       <div className="header_icons">
         <VideoCallIcon className="header_icon" />
         <AppsIcon className="header_icon" />
@@ -33,33 +31,9 @@ function Header() {
           alt="Justice Mubayiwa"
           src="https://yt3.ggpht.com/yti/APfAmoE1gOjOsyvo07UjkdCTyZ5Sr3kM2CVrN5oiOGJG6A=s88-c-k-c0x00ffffff-no-rj-mo"/>
       </div>
-     
-      
-        
-
     </div>
-    <h1>test</h1>
-    <h1>test</h1>
-    <h1>test</h1>
-    <h1>test</h1>
-    <h1>test</h1>
-    <h1>test</h1>
-    <h1>test</h1>
-    <h1>test</h1>
-    <h1>test</h1>
-    <h1>test</h1>
-    <h1>test</h1>
-    <h1>test</h1>
-    <h1>test</h1>
-    <h1>test</h1>
-    <h1>test</h1>
-    <h1>test</h1>
-    <h1>test</h1>
-    <h1>test</h1>
-    <h1>test</h1>
-    <h1>test</h1>
-    <h1>test</h1>
-    </div>
+    
+  </div>
     
   )
 }
