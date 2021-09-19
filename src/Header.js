@@ -1,5 +1,6 @@
 import React from 'react'
 import MenuIcon from '@material-ui/icons/Menu';
+import SearchIcon from '@material-ui/icons/Search';
 
 
 function Header() {
@@ -7,7 +8,11 @@ function Header() {
     <div className="app">
       <h1>I am a header</h1>
       <MenuIcon />
-      <img src="https://www.logo.wine/a/logo/YouTube/YouTube-Logo.wine.svg" alt="youtube logo"/>
+      <img
+      className="header_logo" 
+      src="https://www.logo.wine/a/logo/YouTube/YouTube-Logo.wine.svg" alt="youtube logo"/>
+      <input type="text" />
+      <SearchIcon />
     </div>
   )
 }
