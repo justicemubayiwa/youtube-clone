@@ -18,6 +18,13 @@
   border: 1px solid lightgray;
 }
 
+.header_inputButton{
+  width: 10% !important;
+  background-color: rgb(246, 246, 246);
+  border-left: 1px solid rgb(236, 236, 236);
+  color: grey;
+}
+
 .header_input > input {
   flex: 1;
   border: none;
@@ -32,6 +39,10 @@
 .header_icons {
   display: flex;
   align-items: center;
+}
+
+.header_icon{
+  margin-right: 8px;
 }
 
 

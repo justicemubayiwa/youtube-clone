@@ -20,15 +20,15 @@ function Header() {
       </div>
 
       <div class="header_input" >
-        <input type="text" />
-        <SearchIcon />
+        <input placeholder="Search" type="text" />
+        <SearchIcon className="header_inputButton" />
       </div>
       
       <div className="header_icons">
-        <VideoCallIcon />
-        <AppsIcon />
-        <NotificationsIcon />
-        <Avatar
+        <VideoCallIcon className="header_icon" />
+        <AppsIcon className="header_icon" />
+        <NotificationsIcon className="header_icon" />
+        <Avatar className="header_icon"
           alt="Justice Mubayiwa"
           src="https://yt3.ggpht.com/yti/APfAmoE1gOjOsyvo07UjkdCTyZ5Sr3kM2CVrN5oiOGJG6A=s88-c-k-c0x00ffffff-no-rj-mo"/>
       </div>
