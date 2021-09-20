@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Sidebar from './Sidebar';
 import RecommendedVideos from './RecommendedVideos';
+import {BrowserRouter as Router, Switch,Route} from "react-router";
 
 import './App.css';
 
