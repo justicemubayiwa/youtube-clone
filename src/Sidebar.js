@@ -9,9 +9,10 @@ import SubscriptionIcon from '@material-ui/icons/Subscriptions';
 function Sidebar() {
   return (
     <div className="sidebar">
-      <SideBarRow Icon={HomeIcon} title="Home" />
+      <SideBarRow selected Icon={HomeIcon} title="Home" />
       <SideBarRow Icon={WhatshotIcon} title="Trending" />
       <SideBarRow Icon={SubscriptionIcon} title="Subscriptions" />
+      <hr/>
       
       
     </div>
