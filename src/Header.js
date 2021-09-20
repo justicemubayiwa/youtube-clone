@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './Header.css';
 import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
@@ -8,7 +8,10 @@ import NotificationsIcon from '@material-ui/icons/Notifications';
 import Avatar from '@material-ui/core/Avatar';
 
 
+
 function Header() {
+  const [inputSearch, setInputSearch] = useState("");
+
   return (
     <div>
     <div className="header">
@@ -20,7 +23,7 @@ function Header() {
           src="https://www.logo.wine/a/logo/YouTube/YouTube-Logo.wine.svg"/>
       </div>
       <div class="header_input" >
-        <input placeholder="Search" type="text" />
+        <input onChange={e=> setInputSearch(e.target.value)} value={inputSearch} placeholder="Search" type="text" />
         <SearchIcon className="header_inputButton" />
       </div>
       <div className="header_icons">
