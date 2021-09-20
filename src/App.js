@@ -10,6 +10,7 @@ function App() {
   return (
    <div className="app">
      <Router>
+      <Header />
        <Switch>
          <Route path="/search">
            <h1>Search page</h1>
