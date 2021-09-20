@@ -12,11 +12,14 @@ function App() {
      <Router>
       <Header />
        <Switch>
-         <Route path="/search">
+         <Route path="/search/searchTerm:">
            <h1>Search page</h1>
          </Route>
          <Route path="/">
-          <h1>Home page</h1>
+           <div className="app_page">
+            <Sidebar />
+            <RecommendedVideos />
+           </div>
          </Route>
        </Switch>
      </Router>
