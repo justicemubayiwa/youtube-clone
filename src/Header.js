@@ -29,7 +29,7 @@ function Header() {
         <NotificationsIcon className="header_icon" />
         <Avatar className="header_icon"
           alt="Justice Mubayiwa"
-          src="https://yt3.ggpht.com/yti/APfAmoE1gOjOsyvo07UjkdCTyZ5Sr3kM2CVrN5oiOGJG6A=s88-c-k-c0x00ffffff-no-rj-mo"/>
+          src="https://pbs.twimg.com/profile_images/1430749898882777088/jJUWFHl9_400x400.jpg"/>
       </div>
     </div>
     
