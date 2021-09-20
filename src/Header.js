@@ -6,6 +6,9 @@ import VideoCallIcon from '@material-ui/icons/VideoCall';
 import AppsIcon from '@material-ui/icons/Apps';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import Avatar from '@material-ui/core/Avatar';
+import {Link} from "react-router-dom"
+
+
 
 
 
@@ -22,9 +25,14 @@ function Header() {
           alt="Youtube logo"
           src="https://www.logo.wine/a/logo/YouTube/YouTube-Logo.wine.svg"/>
       </div>
+      
       <div class="header_input" >
-        <input onChange={e=> setInputSearch(e.target.value)} value={inputSearch} placeholder="Search" type="text" />
-        <SearchIcon className="header_inputButton" />
+        <input 
+          onChange={(e)=> setInputSearch(e.target.value)} value={inputSearch} placeholder="Search" type="text" />
+        <Link to={`/search/${inputSearch}`}>
+          <SearchIcon className="header_inputButton" />
+        </Link>
+        
       </div>
       <div className="header_icons">
         <VideoCallIcon className="header_icon" />
